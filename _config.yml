@@ -3,9 +3,9 @@ encoding: utf-8
 # SEO相关信息
 title: 杂乱无章
 description: 杂乱无章
-keywords: jiancaiZhong,Blog,Java,Html,JavaScript
-author: jiancaiZhong
-footerText: '联系我（email）: '
+keywords: su,Blog,Java,Html,JavaScript
+author: su
+footerText: '联系我（email）: su'
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
@@ -47,6 +47,8 @@ extMath: true
 
 # 友情链接
 links:
+  - title: 友链
+    url: https://jiancai.life/
   - title: Download Chrome
     url: https://www.google.cn/chrome/
   - title: ip Address
