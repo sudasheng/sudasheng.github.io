@@ -5,7 +5,7 @@ title: 杂乱无章
 description: 杂乱无章
 keywords: jiancaiZhong,Blog,Java,Html,JavaScript
 author: jiancaiZhong
-footerText: '联系我（email）: zhong@jiancai.email'
+footerText: '联系我（email）: '
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
