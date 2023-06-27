@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: f:ActionForm的使用
-categories: [js]
+categories: []
 ---
 
 `在js获取表单数据`
