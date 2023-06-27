@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: ActionForm的使用
+title: f:ActionForm的使用
 categories: [js]
 ---
 
