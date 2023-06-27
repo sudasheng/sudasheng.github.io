@@ -12,7 +12,7 @@ conda create -n openai python==3.10
 ```
 创建项目如`flask_demo`并使用该环境。
 
-先运行下面命令，如果生成的`requirements.txt`有内容，需要全部`uninstall`，以保证最开始是无第三依赖的干净环境。项目打包时候再次运行
+先运行下面命令，如果生成的`requirements.txt`有内容，需要全部`uninstall`，以保证最开始是无第三方依赖的干净环境。项目打包时候再次运行
 ```bash
 pip freeze > requirements.txt
 ```
@@ -33,7 +33,7 @@ if __name__ == '__main__':
 ### 三、创建Dockerfile文件
 在当前项目下创建`Dockerfile`，内容如下
 ```bash
-FROM python
+FROM python:3.10
 WORKDIR /flask_demo
 
 COPY requirements.txt requirements.txt
@@ -56,4 +56,5 @@ docker run -d --name flask_docker_web -p 5000:5000 flask_demo:1.0
 ```bash
 docker run -d --name flask_docker_web2 -v /root/flask_docker:/flask_demo -p 5000:5000 flask_demo:1.0
 ```
+
 > 记得打开5000端口的防火墙，即可通过`ip:5000`访问到`Hello World！`
