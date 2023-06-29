@@ -31,7 +31,7 @@ response = openai.ChatCompletion.create(
 # 提取回复
 print(response['choices'][0]['message']['content'])
 ```
-### 如何pua模型
+### pua模型，让其具备不同的个性或行为
 ```python
 response = openai.ChatCompletion.create(
     model=MODEL,
@@ -44,7 +44,7 @@ response = openai.ChatCompletion.create(
 
 print(response["choices"][0]["message"]["content"])
 ```
-### 少样本提示，伪造对话让模型更容易回答出想要的结果
+### 少量样本提示，伪造对话让模型更容易回答出想要的结果
 ```python
 response = openai.ChatCompletion.create(
     model=MODEL,
