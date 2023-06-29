@@ -4,6 +4,8 @@ title: openai API调用-单轮对话
 categories: [python]
 ---
 
+> python调用openai API实现单轮对话
+
 ### 安装和/或升级到最新版本的 OpenAI Python 库
 ```bash
 pip install --upgrade openai
