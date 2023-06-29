@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: python调用openai API单轮对话
+title: openai API调用-单轮对话
 categories: [python]
 ---
 
