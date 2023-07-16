@@ -20,7 +20,7 @@ session = requests.Session()
 def part_one() -> str:
     default_api_prefix = 'https://ai-{}.fakeopen.com'.format((datetime.now() - timedelta(days=1)).strftime('%Y%m%d'))
     url = '{}/auth/preauth'.format(default_api_prefix)
-    resp = self.session.get(url, allow_redirects=False, timeout=100)
+    resp = session.get(url, allow_redirects=False, timeout=100)
 
     if resp.status_code == 200:
         json = resp.json()
@@ -116,8 +116,6 @@ def __part_six(code_verifier: str, location: str, ref: str) -> str:
     if resp.status_code == 302:
         location = resp.headers['Location']
         if location.startswith('/u/mfa-otp-challenge?'):
-            if not self.mfa:
-                raise Exception('MFA required.')
             return part_seven(code_verifier, location)
 
         if not location.startswith('com.openai.chat://auth0.openai.com/ios/com.openai.chat/callback?'):
