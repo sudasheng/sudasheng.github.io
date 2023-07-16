@@ -35,7 +35,7 @@ class ChatGPT:
 chat = ChatGPT()
 while 1:
     question = input("请输入问题：")
-    print("chatgpt："chat.ask_gpt(question))
+    print("chatgpt：",chat.ask_gpt(question))
 ```
 - 保存对话为json
 ```python
