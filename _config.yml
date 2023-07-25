@@ -1,8 +1,8 @@
 encoding: utf-8
 
 # SEO相关信息
-title: 杂乱无章
-description: 杂乱无章
+title: 我的博客
+description: 我的博客
 keywords: su,Blog,Java,Html,JavaScript
 author: su
 footerText: '联系我（email）: su'
@@ -30,8 +30,8 @@ menu:
     url: /pages/search.html
   - title: 书签
     url: /pages/links.html
-  - title: 留言
-    url: /pages/chat.html
+  # - title: 留言
+  #   url: /pages/chat.html
   - title: 关于
     url: /pages/about.html
 
@@ -47,8 +47,8 @@ extMath: true
 
 # 友情链接
 links:
-  - title: 友链
-    url: https://jiancai.life/
+  - title: jiancai
+    url: https://blog.jiancai.life/
   - title: Download Chrome
     url: https://www.google.cn/chrome/
   - title: ip Address
