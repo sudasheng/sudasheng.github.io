@@ -44,7 +44,7 @@ categories: [esp32]
 
 ![07](07.png)
 
-可重复上面步骤安装多个版本，第二个开始安装成功没有提示画面
+可重复上面步骤安装多个版本
 
 ### 三、切换版本
 在vscode，输入快捷键 `Ctrl + Shift + p`，在上方的搜索栏输入 `ESP-IDF:Configure Paths`
