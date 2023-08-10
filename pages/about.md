@@ -7,6 +7,6 @@ title: 关于
 
 天空一声巨响，作者闪亮登场
 
-本博客创建于23年一个蝉鸣渐起的季节，用于致敬我编程路上的引路人[jiancai](https://blog.jiancai.life/)
+本博客创建于23年的夏季，用于致敬我的引路人[jiancai](https://blog.jiancai.life/)
 
 三十年河东，三十年河西。读书10余载！只为写好这一篇博客！
