@@ -5,7 +5,7 @@ icon_img: /assets/img/icon.jpg
 name: "钟健材"
 job: "Java 研发⼯程师"
 
-baseurl: /
+baseurl: /resume/
 
 exclude:
   - _posts/
