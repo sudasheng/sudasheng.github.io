@@ -11,7 +11,7 @@ contents:
       - 熟练使用 Spring Boot、Spring Cloud Alibaba、Dubbo 等主流框架
   - title: SQL
     description:
-      - 深⼊研究 MySQL、PostgreSQL 等关系型数据库，有数据库调优经验
+      - 深⼊研究 MySQL、达梦、PostgreSQL等关系型数据库，有数据库调优和数据库迁移经验
       - 熟悉 NoSQL，如 Redis 的缓存使用，进行高并发的相关功能模块开发
   - title: Linux
     description:
@@ -22,6 +22,5 @@ contents:
     description:
       - 熟练掌握微信小程序的相关开发知识以及上线操作
       - 熟悉云计算相关知识
-      - 掌握自动化测试相关技术
       - 具备前端开发经验，了解 jQuery、CSS、HTML
       - 有良好的代码⻛格和编程习惯，熟练使⽤ git 进⾏版本控制
