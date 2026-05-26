@@ -22,15 +22,6 @@ contents:
       - 
     date: 2024.06 - 2024.10
     url: "<span style='color: #979290;'>项目地址: # 内网项目</span>"
-  - title: "<a style='text-decoration: none;' href='https://zjh.gzzjjk.com.cn/shop' target='_blank'>珠江健康智慧养⽼商城健康平台</a>"
-    description:
-      - 担任⼩程序开发组⻓，主导技术选型和开发技术分享，负责核⼼模块的代码编写
-      - 承担核⼼模块（秒杀、购物⻋、订单等功能）的代码编写
-      - 负责分布式架构中秒杀业务实现：布隆过滤器 + Redis + MySQL
-      - 参与⽀付（微信⽀付、汇聚⽀付）模块的接⼝开发
-      - 参与商城项⽬订单相关的 BI 统计⼯作
-    date: 2024.12 - 2024.03
-    url: "项目地址: <a style='text-decoration: none;color: goldenrod;' href='https://zjh.gzzjjk.com.cn/shop' target='_blank'>https://zjh.gzzjjk.com.cn/shop</a>"
   - title: "<a style='text-decoration: none;' href='https://hbadr.gzpykj.com/hb-adr' target='_blank'>湖北药械妆个例报告直报系统</a>"
     description:
       - 担任该项⽬的微信⼩程序端开发组⻓，设计⼩程序项⽬的架构
